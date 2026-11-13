@@ -1171,5 +1171,15 @@
     "repo": "https://github.com/Itachi0819-a/skincare-plan",
     "pages": "https://itachi0819-a.github.io/skincare-plan/",
     "raw_data": "https://raw.githubusercontent.com/Itachi0819-a/skincare-plan/main/data.json"
-  }
+  },
+  "skin_log_caption": "按日期记录皮肤变化和当时的调整，最新的在最上面。只记文字，不放照片。",
+  "skin_log": [
+    {
+      "date": "2026-11-12",
+      "status": "左脸颊一颗红、鼓、没有头的丘疹，上方有一个小的褐色痘印；下巴、嘴周仍有闭口。",
+      "action": "红丘疹晚上点班赛（初期点涂1-2小时后洗掉），不挤；下巴照常阿达帕林，但不和班赛叠在同一处；痘印先不处理，做好防晒。",
+      "next": "3-5天后再看：变大、变疼或出现脓头就继续班赛并考虑短期配抗生素药膏；大片疼痛脓疱或发烧尽快看皮肤科。",
+      "source": "用户描述"
+    }
+  ]
 }

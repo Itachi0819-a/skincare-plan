@@ -394,6 +394,12 @@
           <ol class="plain">${consider}</ol>
         </section>
 
+        <section class="block" id="skinlog">
+          <h2>最近皮肤状态</h2>
+          <p class="caption">${esc(d.skin_log_caption || "")}</p>
+          ${((d.skin_log) || []).map((e) => `<div class="callout info"><div class="lead">${esc(e.date || "")}</div><p>状态：${esc(e.status || "")}</p><p>调整：${esc(e.action || "")}</p>${e.next ? `<p>接下来：${esc(e.next)}</p>` : ""}${e.source ? `<p class="caption">来源：${esc(e.source)}</p>` : ""}</div>`).join("") || "<p>暂无记录</p>"}
+        </section>
+
         <section class="block" id="note">
           <h2>依据和提醒</h2>
           <p>${esc(profileBits)}</p>
